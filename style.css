@@ -102,3 +102,11 @@ footer{padding:44px 40px;display:flex;justify-content:space-between;gap:20px;fle
 footer{padding:36px 22px}.total{font-size:56px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Corrección forzada para la foto de fondo */
+.hero .ph img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 0.8 !important;
+}
