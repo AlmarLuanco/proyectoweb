@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RAFER · Nuria Fernández · Fotografía y vídeo en Gijón</title>
+<meta name="description" content="Fotografía y vídeo de bodas, retratos de estudio y digitalización de cintas VHS en Gijón, Asturias.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- IMÁGENES: guarda las fotos en esta carpeta con estos nombres: hero.jpg · bodas.jpg · estudio.jpg · video.jpg · nuria.jpg · contacto.jpg · vhs.jpg -->
+
+<header class="nav" id="nav">
+  <a href="index.html" class="brand">RAFER</a>
+  <nav aria-label="Principal"><ul>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nuria">Nuria</a></li>
+    <li><a href="#opiniones">Opiniones</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul></nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="ph"><img src="hero.jpg" alt="" onerror="this.remove()"></div>
+  <div class="hero-in">
+    <h1>Vuestros momentos,<br><em>contados con calma.</em></h1>
+    <p class="sub">Fotografía y vídeo de bodas, retratos de estudio y recuerdos en cinta recuperados. Un trato cercano y un trabajo cuidado en Gijón y toda Asturias.</p>
+    <a href="#servicios" class="btn light">Ver servicios</a>
+  </div>
+  <div class="where">Gijón · Asturias</div>
+</section>
+
+<section class="intro">
+  <div class="wrap">
+    <p class="label">Fotografía y vídeo</p>
+    <h2>Imágenes para volver a ellas dentro de veinte años.</h2>
+    <p>Un mismo equipo para fotografiar, grabar y conservar lo que más importa: vuestra boda, vuestra familia y los recuerdos que guardáis en un cajón.</p>
+  </div>
+</section>
+
+<section class="portfolio" id="servicios">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Servicios</h2>
+      <p class="label" style="color:var(--mute)">Lo que hacemos</p>
+    </div>
+    <div class="grid">
+      <a class="tile" href="#contacto">
+        <div class="thumb"><img src="bodas.jpg" alt="" onerror="this.remove()"><span class="ph-note">Foto bodas</span></div>
+        <h3>Bodas</h3><p class="meta">Fotografía y vídeo · Preparativos hasta el baile</p>
+      </a>
+      <a class="tile" href="#contacto">
+        <div class="thumb"><img src="estudio.jpg" alt="" onerror="this.remove()"><span class="ph-note">Foto estudio</span></div>
+        <h3>Estudio</h3><p class="meta">Retratos y familia</p>
+      </a>
+      <a class="tile" href="#contacto">
+        <div class="thumb"><img src="video.jpg" alt="" onerror="this.remove()"><span class="ph-note">Foto vídeo</span></div>
+        <h3>Vídeo</h3><p class="meta">Reportajes con montaje cuidado</p>
+      </a>
+      <a class="tile" href="digitalizar-vhs.html">
+        <div class="thumb"><img src="vhs.jpg" alt="" onerror="this.remove()"><span class="ph-note">Foto cintas</span></div>
+        <h3>Digitalizar cintas</h3><p class="meta">VHS · VHS-C · Video8 · 16 € por cinta</p>
+        <span class="go">Ver el servicio</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="exp" id="nuria">
+  <div class="wrap">
+    <div class="pic"><img src="nuria.jpg" alt="" onerror="this.remove()"></div>
+    <div>
+      <p class="label">Nuria Fernández</p>
+      <h2>La pasión de <em>una vida entre cámaras.</em></h2>
+      <p>Nuria heredó de su padre el amor por la fotografía y ha sido premiada en fotografía social. Hace reportajes en digital y también en analógico, con textura y un toque de nostalgia. Os acompaña con cercanía para que os sintáis cómodos desde el primer momento.</p>
+      <a href="#contacto" class="btn light">Hablemos</a>
+    </div>
+  </div>
+</section>
+
+<section class="proceso" id="opiniones">
+  <div class="wrap">
+    <h2>Lo que dicen las parejas</h2>
+    <div class="rating"><b>5,0</b><span class="label" style="color:var(--mute)">25 opiniones en Bodas.net</span></div>
+    <div class="rev">
+      <div class="card"><p>[Espacio para una opinión real de una pareja]</p></div>
+      <div class="card"><p>[Espacio para una opinión real de una pareja]</p></div>
+      <div class="card"><p>[Espacio para una opinión de Google]</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contacto">
+  <div class="bg"><img src="contacto.jpg" alt="" onerror="this.remove()"></div>
+  <div class="wrap">
+    <p class="label">Gijón · Toda Asturias</p>
+    <h2>Contadnos vuestro proyecto.</h2>
+    <a class="btn light" href="mailto:correo@ejemplo.com">Escribirnos</a>
+    <p class="contact">[Teléfono]<br>[Correo]</p>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 RAFER · Nuria Fernández</span><span>Gijón · Asturias</span></footer>
+
+<script>
+(function(){var n=document.getElementById('nav');function f(){n.classList.toggle('solid',window.scrollY>60)}f();window.addEventListener('scroll',f,{passive:true})})();
+</script>
+</body>
+</html>
